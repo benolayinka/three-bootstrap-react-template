@@ -9,9 +9,9 @@ I'm constantly using the same boilerplate to create web apps with
 So I made a boilerplate repo to start easily.
 
 It uses the following bit.dev packages
-benolayinka.benolayinka.three-scene-renderer
-benolayinka.benolayinka.basic-scene-builder
-benolayinka.benolayinka.utils
+- benolayinka.benolayinka.three-scene-renderer
+- benolayinka.benolayinka.basic-scene-builder
+- benolayinka.benolayinka.utils
 
 ## Available Scripts
 
