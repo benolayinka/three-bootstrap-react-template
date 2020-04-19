@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bit/benolayinka.benolayinka.basic-scene-builder": "0.0.5",
     "@bit/benolayinka.benolayinka.three-scene-renderer": "0.0.4",
     "@bit/benolayinka.benolayinka.utils": "0.0.5",
     "@testing-library/jest-dom": "^4.2.4",
