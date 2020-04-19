@@ -5,16 +5,19 @@ import * as THREE from 'three'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { setContent } from '@bit/benolayinka.benolayinka.utils'
 import ThreeSceneRenderer from '@bit/benolayinka.benolayinka.three-scene-renderer'
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 function App() {
 
   	var canvas, renderer, scene, camera, clock, mixer, controls
 
-  	function extendScene(props){
+  	function createScene(props){
 
 		({canvas, renderer} = props)
 
 		scene = new THREE.Scene()
+
+		const NEAR = 0.01, FAR = 1000, FOV = 60, ASPECT = 16/9
 
 	  	camera = new THREE.PerspectiveCamera(FOV, ASPECT, NEAR, FAR);
 
@@ -96,8 +99,7 @@ function App() {
 				className='h-100 w-100 position-absolute' 
 				adaptToDeviceRatio 
 				gammaCorrect
-				onMount={sb.buildScene}
-				onUnmount={sb.destroyScene}
+				onMount={createScene}
 			/>
 		</div>
 	);
