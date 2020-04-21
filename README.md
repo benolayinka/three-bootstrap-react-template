@@ -11,6 +11,7 @@ So I made a boilerplate repo to start easily.
 ## Requirements
 
 [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 [Install node.js](https://nodejs.org/en/)
 
 ## Clone the repo to get started
