@@ -16,8 +16,9 @@ So I made a boilerplate repo to start easily.
 
 ## Clone the repo to get started
 
-`git clone https://github.com/benolayinka/three-bootstrap-react-template.git`
-`cd three-bootstrap-react-template`
+`git clone https://github.com/benolayinka/three-bootstrap-react-template.git` will clone in to `three-bootstrap-react-template`
+
+`cd three-bootstrap-react-template` will enter the folder. See below to run or build the template.
 
 ## Running the app locally
 
