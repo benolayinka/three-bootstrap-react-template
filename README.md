@@ -8,6 +8,16 @@ I'm constantly using the same boilerplate to create web apps with
 
 So I made a boilerplate repo to start easily.
 
+## Requirements
+
+[Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+[Install node.js](https://nodejs.org/en/)
+
+## Clone the repo to get started
+
+`git clone https://github.com/benolayinka/three-bootstrap-react-template.git`
+`cd three-bootstrap-react-template`
+
 ## Running the app locally
 
 `npm install` to install necessary packages
