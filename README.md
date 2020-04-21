@@ -13,14 +13,14 @@ It uses the following bit.dev packages
 - benolayinka.benolayinka.basic-scene-builder
 - benolayinka.benolayinka.utils
 
-## Running the app
+## Running the app locally
 
-### `npm install` to install necessary packages
-### `npm start` to run the app in development mode with hot reloading
+`npm install` to install necessary packages
+`npm start` to run the app in development mode with hot reloading
 
 ## Building the app
 
-### `npm run build`
+`npm run build` will build production assets to /build
 
 ## Troubleshooting
 
@@ -28,6 +28,4 @@ It uses the following bit.dev packages
 
 Packages aren't installed. Run:
 
-npm start fails: sh: react-scripts: command not found
-
-### `npm install`
+`npm install`
